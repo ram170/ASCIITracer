@@ -1,4 +1,4 @@
-alert("If you're using phone, you can't checking the functionality of the site. Try using pc");
+alert("If you're using phone, you can't check the functionality of the site. Try using pc");
 var count = 0;
 dict = {};
 
