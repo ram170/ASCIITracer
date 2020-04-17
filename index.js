@@ -58,7 +58,7 @@ function reset() {
 
 function desc(i) {
     if (i === 1) {
-        document.getElementById('coin').innerHTML = "Simple site which can be used to perform cointoss which randomly generates heads/tails."
+        document.getElementById('coin').innerHTML = "Simple site which can be used to perform cointoss (i.e) randomly generate heads/tails."
         var link = createLink("https://ram170.github.io/");
         document.getElementById("linkCoin").innerHTML = "";
         document.getElementById("linkCoin").appendChild(link);
