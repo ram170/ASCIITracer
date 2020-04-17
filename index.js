@@ -1,4 +1,4 @@
-alert("If you're using phone, you can't check the functionality of the site. Try using pc");
+alert("If you're using phone, you can't checking the functionality of the site. Try using pc");
 var count = 0;
 dict = {};
 
@@ -60,16 +60,19 @@ function desc(i) {
     if (i === 1) {
         document.getElementById('coin').innerHTML = "Simple site which can be used to perform cointoss which randomly generates heads/tails."
         var link = createLink("https://ram170.github.io/");
+        document.getElementById("linkCoin").innerHTML = "";
         document.getElementById("linkCoin").appendChild(link);
     }
     if (i === 2) {
         document.getElementById('todo').innerHTML = "Webpage where you can add your ToDos, pop em after you've done it and reset completely."
         var link = createLink("https://ram170.github.io/ToDoList");
+        document.getElementById("linkTodo").innerHTML = "";
         document.getElementById("linkTodo").appendChild(link);
     }
     if (i === 3) {
         document.getElementById('youtube').innerHTML = "Nothing to show here. Feel free to check out my Youtube channel. I post guitar covers & gameplays."
         var link = createLink("https://www.youtube.com/user/SriramCR7");
+        document.getElementById("linkYoutube").innerHTML = "";
         document.getElementById("linkYoutube").appendChild(link);
     }
 }
